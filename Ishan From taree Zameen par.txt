@@ -1,0 +1,30 @@
+Problem Statement:
+
+Ishaan, a young boy from the movie Taare Zameen Par, suffers from dyslexia, which makes it difficult for him to read and write. He often replaces certain letters in words, causing him to struggle with understanding written text. His parents are always concerned about his performance in school and often scold him.
+
+In the movie, Aamir Khan plays a teacher who helps Ishaan overcome his dyslexia. However, in this context, Aamir Khan is unavailable to help Ishaan. To assist Ishaan in Aamir Khan's absence, we have developed a program that corrects the text he reads according to a set of predefined rules. The program takes a single line of text as input and returns the corrected text as output. It performs the following operations:
+
+If the current character is followed by a vowel, replace 'g' with 'a' and 'p' with 'z'.
+If the current character is not followed by a vowel, replace 's' with 'a' and 'k' with 'z'.
+After applying the above rules, shift each alphabetic character in the text three positions back in the alphabet (e.g., 'a' becomes 'x', 'b' becomes 'y', etc.), maintaining the character's case.
+With the help of this program, Ishaan can better understand the text he reads and his parents will be less worried about his academic performance.
+
+Input:
+
+A string text (1 ≤ |text| ≤ 10^5), where |text| is the length of the string. The string may contain uppercase and lowercase letters, digits, and special characters.
+Output:
+
+A single string, representing the corrected text according to the rules mentioned above.
+Constraints:
+
+The input string will contain only printable ASCII characters (ASCII values 32-126).
+Case Study:
+Suppose Ishaan provides the following input text:
+
+Input:
+"Gsk abk Pgs soi Gpg"
+
+Output:
+The corrected text should be printed on the screen:
+
+"Dpj xah Ocp qle Dma"
